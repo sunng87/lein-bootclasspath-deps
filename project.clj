@@ -1,4 +1,4 @@
-(defproject info.sunng/lein-bootclasspath-deps "0.1.1-SNAPSHOT"
+(defproject info.sunng/lein-bootclasspath-deps "0.1.1"
   :description "A Leiningen plugin to manage your bootclasspath."
   :url "https://github.com/sunng87/lein-bootclasspath-deps"
   :license {:name "Eclipse Public License"
