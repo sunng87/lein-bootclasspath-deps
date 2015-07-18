@@ -1,26 +1,23 @@
 # bootclasspath-deps
 
-A Leiningen plugin to do many wonderful things.
+A Leiningen plugin to manage your bootclasspath.
 
 ## Usage
 
-FIXME: Use this for user-level plugins:
+Use this for project-level plugins:
 
-Put `[bootclasspath-deps "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your
-`:user` profile, or if you are on Leiningen 1.x do `lein plugin install
-bootclasspath-deps 0.1.0-SNAPSHOT`.
+Put `[info.sunng/lein-bootclasspath-deps "0.1.0]` into the `:plugins`
+vector of your project.clj.
 
-FIXME: Use this for project-level plugins:
+Specify jars to loaded from bootclasspath in `:boot-dependencies`, like:
 
-Put `[bootclasspath-deps "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
-
-FIXME: and add an example usage that actually makes sense:
-
-    $ lein bootclasspath-deps
+```clojure
+:boot-dependencies [[org.mortbay.jetty.alpn/alpn-boot "8.1.3.v20150130"]]
+```
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015 Ning Sun
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.

@@ -1,6 +1,6 @@
-(defproject info.sunng/bootclasspath-deps "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+(defproject info.sunng/lein-bootclasspath-deps "0.1.0-SNAPSHOT"
+  :description "A Leiningen plugin to manage your bootclasspath."
+  :url "https://github.com/sunng87/lein-bootclasspath-deps"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :eval-in-leiningen true)
