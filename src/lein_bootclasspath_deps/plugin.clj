@@ -1,4 +1,4 @@
-(ns bootclasspath-deps.plugin
+(ns lein-bootclasspath-deps.plugin
   (:require [leiningen.core.main :refer [debug]]
             [leiningen.core.classpath :as cp]
             [cemerick.pomegranate.aether :as aether]))
