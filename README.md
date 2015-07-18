@@ -1,4 +1,4 @@
-# bootclasspath-deps
+# lein-bootclasspath-deps
 
 A Leiningen plugin to manage your bootclasspath.
 
