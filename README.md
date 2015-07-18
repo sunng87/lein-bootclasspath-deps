@@ -6,13 +6,20 @@ A Leiningen plugin to manage your bootclasspath.
 
 Use this for project-level plugins:
 
-Put `[info.sunng/lein-bootclasspath-deps "0.1.1]` into the `:plugins`
+Put [![Clojars Project](http://clojars.org/info.sunng/lein-bootclasspath-deps/latest-version.svg)](http://clojars.org/info.sunng/lein-bootclasspath-deps) into the `:plugins`
 vector of your project.clj.
 
 Specify jars to loaded from bootclasspath in `:boot-dependencies`, like:
 
 ```clojure
 :boot-dependencies [[org.mortbay.jetty.alpn/alpn-boot "8.1.3.v20150130"]]
+```
+
+By default, the jar will be **append** to bootclasspath, to
+prepend a jar, add an option `:prepend true`:
+
+```clojure
+:boot-dependencies [[org.mortbay.jetty.alpn/alpn-boot "8.1.3.v20150130" :prepend true]]
 ```
 
 ## License
