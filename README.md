@@ -15,7 +15,7 @@ Specify jars to loaded from bootclasspath in `:boot-dependencies`, like:
 :boot-dependencies [[org.mortbay.jetty.alpn/alpn-boot "8.1.3.v20150130"]]
 ```
 
-By default, the jar will be **append** to bootclasspath, to
+By default, the jar will be **appended** to bootclasspath, to
 prepend a jar, add an option `:prepend true`:
 
 ```clojure
