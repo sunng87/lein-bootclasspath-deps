@@ -5,7 +5,7 @@
 
 (defn- path-for-deps [deps project]
   (when (not-empty deps)
-    (let [btcp-deps-tree (cp/get-dependencies :boot-dependencies project)
+    (let [btcp-deps-tree (cp/get-dependencies :boot-dependencies nil project)
           hierarchy (aether/dependency-hierarchy deps btcp-deps-tree)
           deps-paths (aether/dependency-files hierarchy)]
       (clojure.string/join java.io.File/pathSeparatorChar
