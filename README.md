@@ -24,7 +24,7 @@ prepend a jar, add an option `:prepend true`:
 
 ## License
 
-Copyright © 2015 Ning Sun
+Copyright © 2015-2017 Ning Sun
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
